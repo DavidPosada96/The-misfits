@@ -1,0 +1,17 @@
+<app-menu></app-menu>
+
+<div class="container ">
+  <div class="row row-cols-1 row-cols-md-4 g-4 mx-3 ">
+    <div class="col card my-5 mx-3" style="width: 18rem;" *ngFor="let integrante of integrantes">
+      <img src="{{integrante.foto}}" class="card-img-top tamaño" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{integrante.nombre}}</h5>
+        <h6 class="card-text">{{integrante.instrumento}}</h6>
+        <a href="#" class="btn btn-danger">The Misfits</a>
+      </div>
+    </div>
+    </div>
+  </div>
+  
+
+    <app-footer></app-footer>   
